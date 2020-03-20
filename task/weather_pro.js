@@ -17,7 +17,8 @@ let config = {
             // subtitle: `$[weatherIcon]$[weather] $[temperatureMin] ~ $[temperatureMax]°C ☔️降雨概率 $[precipProbability]%`,
             // detail: `🌡体感温度 $[apparentTemperatureMin] ~ $[apparentTemperatureMax]°C 🥵空气质量 $[aqi]($[aqiDesc]) 🍃风速$[windSpeed]km/h $[windDir] 🌞紫外线指数 $[uv]($[uvDesc]) 💧湿度$[currentHumidity]%
             //         💨气压$[atmosphere]pa
-            title: `[天气日报] $[city] $[district] $[summary]`,
+            title: `[天气日报] $[city] $[district] 
+            $[summary]`,
             subtitle: `$[weatherIcon]$[weather] $[temperatureMin] ~ $[temperatureMax]°C ☔️降雨概率 $[precipProbability]%`,
             detail: `🥵空气质量 $[aqi]($[aqiDesc]) 🌬风速$[windSpeed]km/h $[windDir]
 🌞紫外线指数 $[uv]($[uvDesc]) 💧湿度$[currentHumidity]%
