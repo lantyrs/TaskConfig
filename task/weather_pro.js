@@ -39,7 +39,7 @@ $[daily($[month]月$[day]日  $[temperatureLow]~$[temperatureHigh]°C  $[weather
             gl: false, //太阳镜指数,
             mu: false, //化妆指数,
             airc: false, //晾晒指数,
-            ptfc: false, //交通指数,
+            ptfc: true, //交通指数,
             fsh: false, //钓鱼指数,
             spi: false, //防晒指数
         }
