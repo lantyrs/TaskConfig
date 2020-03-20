@@ -29,6 +29,7 @@ $[daily($[month]月$[day]日  $[temperatureLow]~$[temperatureHigh]°C  $[weather
             drsg: true, //穿衣指数,
             flu: true, //感冒指数,
             comf: true, //舒适度指数,
+            ptfc: true, //交通指数,
             cw: false, //洗车指数,
             sport: false, //运动指数,
             trav: false, //旅游指数,
@@ -39,7 +40,6 @@ $[daily($[month]月$[day]日  $[temperatureLow]~$[temperatureHigh]°C  $[weather
             gl: false, //太阳镜指数,
             mu: false, //化妆指数,
             airc: false, //晾晒指数,
-            ptfc: true, //交通指数,
             fsh: false, //钓鱼指数,
             spi: false, //防晒指数
         }
